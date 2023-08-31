@@ -1,0 +1,14 @@
+.navbar {
+    height: 100px;
+}
+
+.navbarContainer {
+    height: 100%;
+}
+
+.navbarBrand {
+    height: 100%;
+    font-size: 1.75em;
+    display: flex;
+    align-items: center;
+}

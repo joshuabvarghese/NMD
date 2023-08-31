@@ -1,0 +1,38 @@
+.alert {
+    cursor: pointer;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1.5em 2em;
+    transition: background-color 300ms ease-in-out;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.alert:hover {
+    background-color: rgba(255, 66, 66, 0.1);
+}
+
+.alert:active {
+    background-color: rgba(255, 66, 66, 0.3);
+}
+
+.alert :global h1 {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.alert :global p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.content {
+    flex: 1;
+}
+
+.arrow {
+    width: 2em;
+    color: rgba(255, 255, 255, 0.75);
+}

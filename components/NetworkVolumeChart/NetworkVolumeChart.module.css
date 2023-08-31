@@ -1,0 +1,16 @@
+.container {
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container :global .recharts-responsive-container {
+  margin: 0 -4px;
+  transform: scale(1.02);
+}
